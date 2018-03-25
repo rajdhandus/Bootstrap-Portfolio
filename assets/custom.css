@@ -39,11 +39,6 @@ footer p:hover {color: rgb(153, 123, 153) }
 .btn-primary:hover {
     color: rgb(153, 123, 153)
 }
-.btn-primary:active,
-.btn-primary:visited,
-.btn-primary:focus{
-    background-color: rgb(46, 12, 12);
-}
 
 p {
   margin-bottom: 0;
