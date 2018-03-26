@@ -1,43 +1,53 @@
 * {
-    border-radius: 0 !important;
+  border-radius: 0 !important;
 }
+
 
 .navbar {
   color: #ffffff;
   background-color: rgb(46, 12, 12);
 }
 
-nav a:link, a:visited, a:active { color: white !important; }
-nav a:hover { color: rgb(153, 123, 153) !important}
-
+nav a:link,
+a:visited,
+a:active {
+  color: white !important;
+}
+nav a:hover {
+  color: rgb(153, 123, 153) !important;
+}
 
 html {
   position: relative;
   min-height: 100%;
-  -webkit-tap-highlight-color: white;
 }
+
 body {
-  margin-bottom: 60px; 
+  margin-bottom: 60px;
 }
 .footer {
   position: absolute;
   bottom: 0;
   width: 100%;
-  height: 60px; 
+  height: 60px;
   line-height: 60px;
   color: white;
   background-color: rgb(46, 12, 12);
 }
 
-footer p:hover {color: rgb(153, 123, 153) }
+footer p:hover {
+  color: rgb(153, 123, 153);
+}
 
-.btn-primary, .btn-primary:active, .btn-primary:focus{   
-    color: white;
-    background-color: rgb(46, 12, 12);
-    border-color: rgb(46, 12, 12);
+.btn-primary,
+.btn-primary:active,
+.btn-primary:focus {
+  color: white;
+  background-color: rgb(46, 12, 12);
+  border-color: rgb(46, 12, 12);
 }
 .btn-primary:hover {
-    color: rgb(153, 123, 153)
+  color: rgb(153, 123, 153);
 }
 
 p {
@@ -61,4 +71,9 @@ img.portfolio {
   overflow: hidden;
   padding: 30px;
   margin: 5px;
+}
+
+h1 {
+  text-align: center;
+  color: rgb(46, 12, 12);
 }
