@@ -2,7 +2,6 @@
   border-radius: 0 !important;
 }
 
-
 .navbar {
   color: #ffffff;
   background-color: rgb(46, 12, 12);
@@ -66,7 +65,7 @@ img {
 
 img.portfolio {
   width: 250px;
-  height: auto;
+  height: 200px;
   max-width: 100%;
   overflow: hidden;
   padding: 30px;
@@ -78,12 +77,9 @@ h1 {
   color: rgb(46, 12, 12);
 }
 
-
-
-
 #nav-icon1 {
   margin: 0;
-  padding: 0; 
+  padding: 0;
   width: 24px;
   height: 24px;
   position: relative;
@@ -93,16 +89,16 @@ h1 {
   -moz-transform: rotate(0deg);
   -o-transform: rotate(0deg);
   transform: rotate(0deg);
-  -webkit-transition: .5s ease-in-out;
-  -moz-transition: .5s ease-in-out;
-  -o-transition: .5s ease-in-out;
-  transition: .5s ease-in-out;
+  -webkit-transition: 0.5s ease-in-out;
+  -moz-transition: 0.5s ease-in-out;
+  -o-transition: 0.5s ease-in-out;
+  transition: 0.5s ease-in-out;
   cursor: pointer;
 }
 
-#nav-icon1 span{
+#nav-icon1 span {
   margin: 0;
-  padding: 0; 
+  padding: 0;
   display: block;
   position: absolute;
   height: 3px;
@@ -114,10 +110,10 @@ h1 {
   -moz-transform: rotate(0deg);
   -o-transform: rotate(0deg);
   transform: rotate(0deg);
-  -webkit-transition: .25s ease-in-out;
-  -moz-transition: .25s ease-in-out;
-  -o-transition: .25s ease-in-out;
-  transition: .25s ease-in-out;
+  -webkit-transition: 0.25s ease-in-out;
+  -moz-transition: 0.25s ease-in-out;
+  -o-transition: 0.25s ease-in-out;
+  transition: 0.25s ease-in-out;
 }
 
 #nav-icon1 span:nth-child(1) {
