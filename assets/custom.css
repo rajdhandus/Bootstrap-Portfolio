@@ -72,7 +72,8 @@ img.portfolio {
   margin: 5px;
 }
 
-h1 {
+h1,
+h4 {
   text-align: center;
   color: rgb(46, 12, 12);
 }
